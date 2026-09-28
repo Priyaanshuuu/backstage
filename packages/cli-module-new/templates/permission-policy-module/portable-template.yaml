@@ -1,7 +1,0 @@
-name: permission-policy-module
-role: backend-plugin-module
-description: A backend module that provides a custom permission policy for the permission-backend plugin
-values:
-  pluginId: permission
-  moduleVar: '{{ camelCase pluginId }}Module{{ upperFirst ( camelCase moduleId ) }}'
-  policyClass: '{{ upperFirst ( camelCase moduleId ) }}Policy'

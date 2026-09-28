@@ -1,1 +1,0 @@
-export { ReactAriaLink } from './ReactAriaLink';

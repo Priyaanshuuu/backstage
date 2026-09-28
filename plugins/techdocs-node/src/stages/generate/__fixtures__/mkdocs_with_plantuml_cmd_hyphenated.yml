@@ -1,4 +1,0 @@
-site_name: Test
-markdown_extensions:
-  - plantuml-markdown:
-      plantuml_cmd: 'malicious command'
